@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contratações</title>
+        <link href="estilo.css" rel="stylesheet">
+    </head>
+    <body>
+        <header id="cabecalho">
+        <nav class="menu">
+            <ul> 
+                <li><a href="file:///C:/Users/livis/Desktop/paradisetour.html"><b>Página Inicial</b></a></li>
+                <li><a href="file:///C:/Users/livis/Desktop/quemsomos.html"><b>Quem somos?</b></a></li>
+                <li><a href="file:///C:/Users/livis/Desktop/rotas.html"><b>Rotas</b></a></li>
+                <li><a href="file:///C:/Users/livis/Desktop/reclamacoes.html"><b>Chamados</b></a></li>
+                <li><a href="file:///C:/Users/livis/Desktop/cotratacao.html"><b>Contratações</b></a></li>
+            </ul>
+        </nav>
+        </header>
+        <h1>Você está à procura de um emprego?</h1>
+        <h2>O que acha de juntar-se a nós?</h2>
+        <h2>Preencha o formulário abaixo e logo entraremos em contato.</h2>
+        <form action="www.url.com" id="form1" name="form-login" method="POST">
+            <p><b>Nome:</b><br> 
+                <input type="text" name="tName" id="dName"/></p>
+            <p><b>E-mail:</b><br> 
+                <input 
+                type="email" name="tMail" id="dMail" 
+                placeholder="ex.: joao@gmail.com"/></p>
+            <p><b>Telefone:</b><br> 
+                <input type="tel" name="tel" id="tel" 
+                placeholder="(84) 98888-8888"
+                pattern="([0-9]){2}[0-9]{5}-[0-9]{4}"/></p>
+            <p><b>Cargo desejado:</b><br>
+                <select id="est" name="cargos">
+                    <option value="motorista"> Motorista</option>
+                    <option value="guiche"> Guichê</option> 
+                    <option value="supervisor"> Supervisor</option>
+                    <option value="aux"> Auxiliar administrativo</option>
+                    <option value="gerente"> Gerente</option>
+                </select></p><br>
+                <input class="bt-enviar" type="submit" name="Enviar">
+        </form>
+    </body>
+</html>
